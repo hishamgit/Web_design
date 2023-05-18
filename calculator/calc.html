@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calc.css">
+    <script src="calc.js"></script>
+</head>
+<body>
+    <div>
+        <div class="calc">
+            <input type="text" id="display"><br>
+            <button onclick="clearScr()" class="but">clr</button>
+            <div class="row">
+                <button onclick="clicked(9)" class="but">9</button>
+                <button onclick="clicked(8)"class="but">8</button>
+                <button onclick="clicked(7)" class="but">7</button>
+                <button onclick="clicked('/')" class="but">/</button>
+            </div>
+            <div class="row">
+                <button onclick="clicked(6)" class="but">6</button>
+                <button onclick="clicked(5)" class="but">5</button>
+                <button onclick="clicked(4)" class="but">4</button>
+                <button onclick="clicked('*')" class="but">X</button>
+            </div>
+            <div class="row">
+                <button onclick="clicked(1)" class="but">1</button>
+                <button onclick="clicked(2)" class="but">2</button>
+                <button onclick="clicked(3)" class="but">3</button>
+                <button onclick="clicked('+')" class="but">+</button>
+            </div>
+            <div class="row">
+                <button onclick="equalclick()" class="but">=</button>
+                <button onclick="clicked(0)" class="but">0</button>
+                <button onclick="clicked('.')" class="but">.</button>
+                <button onclick="clicked('-')" class="but">-</button>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js_demo_1</title>
+</head>
+<style>
+    #box{
+        width: 400px;
+        height: 250px;
+        border-style: dotted;
+        border-radius: 3px;
+        border-: thick 4px;
+        border-color: rgb(228, 16, 164);
+    }
+</style>
+<body>
+    <div id="box" style="margin: 30px;"></div>
+    <button onclick="color('red')">red</button>
+    <button onclick="color('green')">green</button>
+    <button onclick="color('yellow')">yellow</button>
+    
+</body>
+<script>
+    function color(col){
+        document.getElementById("box").style.background=col
+    }
+</script>
+</html>

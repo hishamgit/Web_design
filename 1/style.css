@@ -1,0 +1,59 @@
+ol{
+    color: brown;
+    background-color: rgb(117, 199, 192);
+}
+#para1{
+    color: black;
+    background-color: aqua;
+}
+.pp{
+    color: blueviolet;
+    background-color: brown;
+}
+.outer{
+    background-color:#8e14b3 ;
+    width: 75%;
+    height: 1000px;
+    border: 5px double ;
+    margin-top: 20px;
+    margin-left: 45px;
+    padding-left: 50px;
+    padding-right:  200px;
+    padding-top: 50px;
+    color: white;
+}
+.red{
+    color: red;
+}
+.box1{
+    width: 35%;
+    height: 45%;
+    background-color: #db3b76;
+    color: #403647;
+    float: right;
+    margin: 10px;
+}
+.box2{
+    width: 35%;
+    height: 45%;
+    background-color: #3b80db;
+    color: #135e13;
+    float:right;
+    margin: 10px;
+}
+.box3{
+    width: 35%;
+    height: 45%;
+    background-color: #74c518;
+    color: #d6449e;
+    float: right;
+    margin: 10px;
+}
+.box4{
+    width: 35%;
+    height: 45%;
+    background-color: #936b9b;
+    color: #e29b15;
+    float: right;
+    margin: 10px;
+}
